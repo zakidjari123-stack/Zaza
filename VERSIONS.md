@@ -52,10 +52,14 @@ Current versions of all skills. Agents can compare against local versions to che
 | signup | 2.0.0 | 2026-05-05 |
 | site-architecture | 2.0.0 | 2026-05-05 |
 | sms | 1.0.0 | 2026-05-21 |
-| social | 2.2.0 | 2026-07-09 |
+| social | 2.3.0 | 2026-08-24 |
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.11.1 (2026-08-24)
+
+- **social** (2.2.0 → 2.3.0): added source-backed X research for customer language, competitor evidence, campaign claims, and content opportunities. The workflow defines query groups, collection limits, pagination, deduplication, evidence-strength rules, and a source packet before synthesis. Xquik is an optional REST, MCP, CLI, and SDK collection path with explicit credential, content-trust, and action boundaries. New eval 8 requires evidence-first research and rejects engagement as proof of demand.
 
 ### 2.11.0 (2026-08-23)
 
