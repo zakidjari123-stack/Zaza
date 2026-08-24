@@ -166,7 +166,7 @@ curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID"
 curl -s "https://example.com/feed/" | xmllint --xpath "//item[position()<6]" - 2>/dev/null
 ```
 
-### X - prefer structured collection
+### X: prefer structured collection
 
 For source-backed X/Twitter listening, prefer a structured, approved API, MCP,
 SDK, CLI, or export workflow. If Xquik is configured, use
@@ -176,7 +176,7 @@ the query, source URLs, timestamps, cursors, and collection boundary.
 Use browser-driven X only for a user-approved session when the structured source
 cannot expose the needed view. Never bypass access controls or automate posting.
 
-### LinkedIn - use the browser
+### LinkedIn: use the browser
 
 LinkedIn does not expose a useful general public listening API. You can drive a
 real browser session with **dev-browser** or **Playwright**. Both maintain
@@ -216,7 +216,7 @@ persistent state: log in once, then navigate the authenticated feed.
 ## Per-Platform Notes
 
 ### LinkedIn
-- **Browser-driven** (dev-browser with persistent session) — see [LinkedIn & X — use the browser](#linkedin--x--use-the-browser)
+- **Browser-driven** (dev-browser with persistent session) - see the LinkedIn browser section above
 - **First-hour comments matter most** — algorithm weights early engagement heavily. Prioritize posts <2h old from target accounts.
 - Comments with 5+ words get more reach than reactions
 - Replying to other commenters can put you in front of their network
